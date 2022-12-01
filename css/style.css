@@ -1,0 +1,17 @@
+body {
+    background-color: #1E6986;
+}
+
+.topNav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.topNav > a {
+    width: 33.333vw;
+    background-color: #43B1B9;
+    border: solid 2px black;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
