@@ -1,10 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: #1E6986;
+    width: 100%;
 }
 
 .topNav {
     display: flex;
     justify-content: space-between;
+    height: 6vh;
 }
 
 .topNav > a {
@@ -14,4 +20,27 @@ body {
     text-align: center;
     text-decoration: none;
     color: black;
+}
+
+.bigSection {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    text-align: center;
+    margin: 3vw;
+    height: auto;
+    padding: 2vw;
+    /* width: 75vw; */
+    font-family: 'Open Sans', sans-serif;
+    font-size: 7vh;
+}
+
+.halfSection {
+    width: 35vw;
+    margin: 5vw;
+
+}
+
+footer >.bigSection{
+    background-color: #D9D9D9;
 }
