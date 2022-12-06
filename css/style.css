@@ -41,8 +41,9 @@ body {
 
 }
 
-footer >.bigSection{
+footer >.fullsection{
     background-color: #D9D9D9;
+    padding: 2vh;
 }
 
 .BigSection > .InfoLink {
@@ -51,4 +52,41 @@ footer >.bigSection{
 
 h2 {
     background-color: #5579F6;
+    font-family:  'IBM Plex Sans', sans-serif;
+    text-align: center;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    width: 50vw;
+}
+
+.fullsection {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: auto;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.gridspacer {
+    width: 75vw;
+}
+
+.grid {
+    display: flex;
+    justify-content: left;
+}
+
+.hero {
+    height: 75vh;
+    width: 100%;
+    text-align: center;
+}
+
+.infohead {
+    background-image: url(/images/infoimage.png);
+}
+
+.indeximage {
+    background-image: url(/images/DALL·E\ 2022-11-30\ 14.34.25\ -\ a\ fishing\ rod\ with\ a\ computer\ hanging\ from\ the\ hook\,\ dogital.png);
 }
