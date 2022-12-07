@@ -20,11 +20,14 @@ body {
     text-align: center;
     text-decoration: none;
     color: black;
+    height: 10vh;
+    padding-top: 3vh;
 }
 
 .bigSection {
     display: flex;
     justify-content: center;
+    align-items: center;
     background-color: white;
     text-align: center;
     margin: 3vw;
@@ -32,13 +35,12 @@ body {
     padding: 2vw;
     width: 75vw;
     font-family: 'Open Sans', sans-serif;
-
+    
 }
 
 .halfSection {
     width: 35vw;
     margin: 5vw;
-
 }
 
 footer >.fullsection{
@@ -62,9 +64,8 @@ h2 {
 .fullsection {
     display: flex;
     justify-content: center;
-    text-align: center;
     height: auto;
-    width: 100%;
+    width: 100vw;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -89,4 +90,20 @@ h2 {
 
 .indeximage {
     background-image: url(/images/DALL·E\ 2022-11-30\ 14.34.25\ -\ a\ fishing\ rod\ with\ a\ computer\ hanging\ from\ the\ hook\,\ dogital.png);
+}
+
+.openSans {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.rightAlign {
+    text-align: end;
+}
+
+.textDecorationNone {
+    text-decoration: none;
+}
+
+.active {
+    -webkit-text-stroke: 1px black;
 }
