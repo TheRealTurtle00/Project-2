@@ -52,6 +52,12 @@ footer >.fullsection{
     background-image: url("infoimage.png");
 }
 
+.Headspacing {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
 h2 {
     background-color: #5579F6;
     font-family:  'IBM Plex Sans', sans-serif;
@@ -70,11 +76,15 @@ h2 {
 }
 
 .gridspacer {
+    display: flex;
+
     width: 75vw;
+
 }
 
 .grid {
     display: flex;
+    flex-direction: column;
     justify-content: left;
 }
 
@@ -106,4 +116,14 @@ h2 {
 
 .active {
     -webkit-text-stroke: 1px black;
+}
+
+.gridimg {
+width: 35vw;
+height: 50vh;
+}
+
+.gridtext {
+    width: 35vw;
+    height: 50vh;
 }
