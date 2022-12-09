@@ -1,10 +1,12 @@
 * {
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
 }
 
 body {
     background-color: #1E6986;
     width: 100%;
+    margin: 0;
 }
 
 .topNav {
@@ -92,14 +94,25 @@ h2 {
     height: 75vh;
     width: 100%;
     text-align: center;
+    padding:25vh;
+    display:flex;
+    justify-content: center;
 }
 
 .infohead {
     background-image: url(/images/infoimage.png);
+    background-repeat:no-repeat;
+    background-size: cover;
 }
 
 .indeximage {
     background-image: url(/images/DALL·E\ 2022-11-30\ 14.34.25\ -\ a\ fishing\ rod\ with\ a\ computer\ hanging\ from\ the\ hook\,\ dogital.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display:flex;
+    justify-content: center;
+    width:100%;
 }
 
 .openSans {
@@ -127,3 +140,34 @@ height: 50vh;
     width: 35vw;
     height: 50vh;
 }
+
+.index-text {
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    background-color: #5579F6;
+    font-family:  'IBM Plex Sans', sans-serif;
+    text-align: center;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    width: 20vw;
+    height:4rem;
+}
+
+a:link {
+    text-decoration: none;
+    color:black;
+}
+
+.halfSection ul {
+    list-style: none;
+}
+
+a:visited {
+    color:black;
+}
+
