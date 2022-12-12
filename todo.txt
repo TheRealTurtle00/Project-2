@@ -1,0 +1,8 @@
+TODO
+    Reformat hero image, Index.html
+    Download images, All
+    Check images, Info.html
+    Add hero image, Action.html
+    Redo bulleted list formatting for first section, Action.html, style.css
+    Add images to second section, Action.html
+    Format grid-ish section, Action.html, style.css
