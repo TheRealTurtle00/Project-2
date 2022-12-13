@@ -24,6 +24,8 @@ body {
     color: black;
     height: 10vh;
     padding-top: 3vh;
+    font-family:  'IBM Plex Sans', sans-serif;
+    font-size: 2rem;
 }
 
 .bigSection {
@@ -67,6 +69,7 @@ h2 {
     padding-top: 1vh;
     padding-bottom: 1vh;
     width: 50vw;
+    font-size: 4rem;
 }
 
 .fullsection {
@@ -147,12 +150,8 @@ height: 50vh;
     flex-direction: column;
     align-items: center;
     width: 50vw;
+    font-size: 2rem;
 }
-
-
-
-
-
 
 h1 {
     background-color: #5579F6;
@@ -161,7 +160,7 @@ h1 {
     padding-top: 1vh;
     padding-bottom: 1vh;
     width: 20vw;
-    height:4rem;
+    font-size: 4rem;
 }
 
 a:link {
@@ -249,3 +248,21 @@ ul{
     font-size: 2rem;
     text-align: left;
 }
+
+.runningoutofdivnames{
+    width: 45vw;
+    font-size: 2rem;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+
+
+
+/* Media query shennanigans go below */
+
+/* @media (max-width: px) */
