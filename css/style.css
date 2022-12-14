@@ -13,6 +13,7 @@ body {
     display: flex;
     justify-content: space-between;
     height: 90px;
+    align-items: center;
 }
 
 .topNav > a {
@@ -23,9 +24,11 @@ body {
     text-decoration: none;
     color: black;
     height: 10vh;
-    padding-top: 3vh;
     font-family:  'IBM Plex Sans', sans-serif;
     font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .bigSection {
@@ -39,7 +42,7 @@ body {
     padding: 2vw;
     width: 75vw;
     font-family: 'Open Sans', sans-serif;
-    
+    flex-direction: column;
 }
 
 .halfSection {
@@ -50,6 +53,7 @@ body {
 footer >.fullsection{
     background-color: #D9D9D9;
     padding: 2vh;
+    width: 100%;
 }
 
 .BigSection > .InfoLink {
@@ -69,6 +73,7 @@ h2 {
     padding-top: 1vh;
     padding-bottom: 1vh;
     width: 50vw;
+    min-width: fit-content;
     font-size: 4rem;
 }
 
@@ -76,8 +81,9 @@ h2 {
     display: flex;
     justify-content: center;
     height: auto;
-    width: 99.175vw;
+    width: 100%;
     font-family: 'Open Sans', sans-serif;
+    margin: 0;
 }
 
 .gridspacer {
@@ -97,7 +103,7 @@ h2 {
     height: 90vh;
     width: 100%;
     text-align: center;
-    padding:25vh;
+    padding-top:25vh;
     display:flex;
     justify-content: center;
 }
@@ -142,7 +148,7 @@ object-fit: none;
 
 .gridtext {
     width: 35vw;
-    height: 50vh;
+    height: fit-content;
 }
 
 .index-text {
@@ -170,7 +176,8 @@ h1 {
     text-align: center;
     padding-top: 1vh;
     padding-bottom: 1vh;
-    width: 20vw;
+    width:20vw;
+    min-width: fit-content;
     font-size: 3rem;
 }
 
@@ -282,15 +289,76 @@ ul{
     text-overflow: initial;
 }
 
+footer{
+    width: 100%;
+    margin: 0;
+}
 
-
-
-.test{
-    width:50vh;
-    height: 50vw;
-    background-color: #1E6986;
+.rightAlign{
+    overflow: wrap;
 }
 
 /* Media query shennanigans go below */
 
-/* @media (max-width: px) */
+@media (max-width: 768px)
+{
+    .gridspacer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+    }
+
+    .gridimg{
+        max-width: fit-content;
+        width: 90%;
+        order: -1;
+    }
+
+    .gridtext{
+        width: 90%;
+        font-size: .75rem;
+    }
+
+    .grid{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .imgnavstuff > .InfoLink,
+    .imgnavstuff > .ActionLink{
+        width: 90%
+    }
+
+    .thisistext{
+        font-size: .75rem;
+    }
+
+    .theseareimages{
+        width: 90%;
+    }
+
+    .theseareimages > img{
+        width:100%;
+        height: auto;
+    }
+
+    .runningoutofdivnames,
+    .runningoutofdivnames > ol,
+    .runningoutofdivnames > ul{
+        font-size: .75rem;
+        width: 95%;
+    }
+
+    .runningoutofdivnames > img{
+        order: -1;
+        width: 100%;
+    }
+}
+
+@media (min-width: 769px){
+    .imgnavstuff{
+        flex-direction: row;
+    }
+}
